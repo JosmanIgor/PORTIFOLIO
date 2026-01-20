@@ -185,6 +185,67 @@ html {
     }
 
     .texto-sobre {
-        width: 450px;
+        min-width: 450px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    #sobre {
+        padding-left: 0px;
+    }
+
+    .titulo {
+        font-size: 28px;
+        padding-bottom: 18px;
+        padding-left: 25px;
+    }
+
+    .texto-sobre {
+        margin: 0 auto;
+        max-width: 350px;
+        min-width: 350px;
+    }
+
+    #nome {
+        padding-left: 25px;
+    }
+
+    .tecnologias {
+        padding-left: 25px;
+    }
+
+    .tecnologias h2 {
+        padding-left: 0px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .container-tecnologias {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .caixa-projetos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 350px;
+        min-width: 350px;
+    }
+
+    .img-projetos {
+        height: 250px;
+        width: 100%;
+    }
+
+    .card {
+        min-width: 350px;
+    }
+
+    .particulas {
+        display: none;
     }
 }
